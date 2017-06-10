@@ -297,12 +297,12 @@ so we should always use it when we can.
 > ~~~
 > {: .python}
 >
-## > > ## Solution
-## > > ~~~
-## > > for i in range(1, 4):
-## > >    print(i)
-## > > ~~~
-## > > {: .python}
+[//]: #> > ## Solution
+[//]: #> > ~~~
+[//]: #> > for i in range(1, 4):
+[//]: #> >    print(i)
+[//]: #> > ~~~
+[//]: #> > {: .python}
 > {: .solution}
 {: .challenge}
 
@@ -323,14 +323,14 @@ so we should always use it when we can.
 > Write a loop that calculates the same result as `5 ** 3` using
 > multiplication (and without exponentiation).
 >
-## > > ## Solution
-## > > ~~~
-## > > result = 1
-## > > for i in range(0, 3):
-## > >    result = result * 5
-## > > print(result)
-## > > ~~~
-## > > {: .python}
+[//]: #> > ## Solution
+[//]: #> > ~~~
+[//]: #> > result = 1
+[//]: #> > for i in range(0, 3):
+[//]: #> >    result = result * 5
+[//]: #> > print(result)
+[//]: #> > ~~~
+[//]: #> > {: .python}
 > {: .solution}
 {: .challenge}
 
@@ -341,15 +341,15 @@ so we should always use it when we can.
 > and produces a new string with the characters in reverse order,
 > so `'Newton'` becomes `'notweN'`.
 >
-## > > ## Solution
-## > > ~~~
-## > > newstring = ''
-## > > oldstring = 'Newton'
-## > > for char in oldstring:
-## > >    newstring = char + newstring
-## > > print(newstring)
-## > > ~~~
-## > > {: .python}
+[//]: #> > ## Solution
+[//]: #> > ~~~
+[//]: #> > newstring = ''
+[//]: #> > oldstring = 'Newton'
+[//]: #> > for char in oldstring:
+[//]: #> >    newstring = char + newstring
+[//]: #> > print(newstring)
+[//]: #> > ~~~
+[//]: #> > {: .python}
 > {: .solution}
 {: .challenge}
 
@@ -387,12 +387,12 @@ so we should always use it when we can.
 > Write a loop using `enumerate(cc)` which computes the value `y` of any
 > polynomial, given `x` and `cc`.
 >
-## > > ## Solution
-## > > ~~~
-## > > y = 0
-## > > for i, c in enumerate(cc):
-## > >     y = y + x**i * c
-## > > ~~~
-## > > {: .python}
+[//]: #> > ## Solution
+[//]: #> > ~~~
+[//]: #> > y = 0
+[//]: #> > for i, c in enumerate(cc):
+[//]: #> >     y = y + x**i * c
+[//]: #> > ~~~
+[//]: #> > {: .python}
 > {: .solution}
 {: .challenge}
