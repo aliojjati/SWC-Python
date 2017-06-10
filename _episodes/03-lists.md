@@ -296,14 +296,14 @@ This is different from how variables worked in lesson 1, and more similar to how
 > ~~~
 > {: .python}
 >
-> > ## Solution
-> > ~~~
-> > my_list = []
-> > for char in "hello":
-> >     my_list.append(char)
-> > print(my_list)
-> > ~~~
-> > {: .python}
+## > > ## Solution
+## > > ~~~
+## > > my_list = []
+## > > for char in "hello":
+## > >     my_list.append(char)
+## > > print(my_list)
+## > > ~~~
+## > > {: .python}
 > {: .solution}
 {: .challenge}
 
@@ -357,14 +357,14 @@ last: 4
 > (e.g. if you wanted to apply the solution to a set of lists of different lengths)?
 > If not, try to change your approach to make it more robust.
 >
-> > ## Solution
-> > Use negative indices to count elements from the end of a container (such as list or string):
-> >
-> > ~~~
-> > string_for_slicing[-4:]
-> > list_for_slicing[-4:]
-> > ~~~
-> > {: .python}
+## > > ## Solution
+## > > Use negative indices to count elements from the end of a container (such as list or string):
+## > >
+## > > ~~~
+## > > string_for_slicing[-4:]
+## > > list_for_slicing[-4:]
+## > > ~~~
+## > > {: .python}
 > {: .solution}
 {: .challenge}
 
@@ -422,23 +422,23 @@ last: 4
 > ~~~
 > {: .output}
 >
-> > ## Solution
-> > To obtain every other character you need to provide a slice with the step
-> > size of 2:
-> >
-> > ~~~
-> > beatles[0:35:2]
-> > ~~~
-> > {: .python}
-> >
-> > You can also leave out the beginning and end of the slice to take the whole string
-> > and provide only the step argument to go every second
-> > element:
-> >
-> > ~~~
-> > beatles[::2]
-> > ~~~
-> > {: .python}
+## > > ## Solution
+## > > To obtain every other character you need to provide a slice with the step
+## > > size of 2:
+## > >
+## > > ~~~
+## > > beatles[0:35:2]
+## > > ~~~
+## > > {: .python}
+## > >
+## > > You can also leave out the beginning and end of the slice to take the whole string
+## > > and provide only the step argument to go every second
+## > > element:
+## > >
+## > > ~~~
+## > > beatles[::2]
+## > > ~~~
+## > > {: .python}
 > {: .solution}
 {: .challenge}
 
@@ -503,20 +503,20 @@ Omitting ending index: ["sep", "oct", "nov", "dec"]
 > Do they always do the same thing?
 > Which do you find easier to read?
 >
-> > ## Solution
-> > Both examples exchange the values of `left` and `right`:
-> >
-> > ~~~
-> > print(left, right)
-> > ~~~
-> > {: .python}
-> >
-> > ~~~
-> > R L
-> > ~~~
-> > {: .output}
-> >
-> >In the first case we used a temporary variable `temp` to keep the value of `left` before we overwrite it with the value of `right`. In the second case, `right` and `left` are packed into a list and then unpacked into `left` and `right`.
+## > > ## Solution
+## > > Both examples exchange the values of `left` and `right`:
+## > >
+## > > ~~~
+## > > print(left, right)
+## > > ~~~
+## > > {: .python}
+## > >
+## > > ~~~
+## > > R L
+## > > ~~~
+## > > {: .output}
+## > >
+## > >In the first case we used a temporary variable `temp` to keep the value of `left` before we overwrite it with the value of `right`. In the second case, `right` and `left` are packed into a list and then unpacked into `left` and `right`.
 > {: .solution}
 {: .challenge}
 
@@ -542,20 +542,20 @@ Omitting ending index: ["sep", "oct", "nov", "dec"]
 > a single operator, like `+` or `*`,
 > can do different things depending on what it's applied to.
 >
-> > ## Solution
-> >
-> > The multiplication operator `*` used on a list replicates elements of the list and concatenates them together:
-> >
-> > ~~~
-> > [2, 4, 6, 8, 10, 2, 4, 6, 8, 10]
-> > ~~~
-> > {: .output}
-> >
-> > It's equivalent to:
-> >
-> > ~~~
-> > counts + counts
-> > ~~~
-> > {: .python}
+## > > ## Solution
+## > >
+## > > The multiplication operator `*` used on a list replicates elements of the list and concatenates them together:
+## > >
+## > > ~~~
+## > > [2, 4, 6, 8, 10, 2, 4, 6, 8, 10]
+## > > ~~~
+## > > {: .output}
+## > >
+## > > It's equivalent to:
+## > >
+## > > ~~~
+## > > counts + counts
+## > > ~~~
+## > > {: .python}
 > {: .solution}
 {: .challenge}
