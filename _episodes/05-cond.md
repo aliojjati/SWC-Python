@@ -220,9 +220,9 @@ freeing us from having to manually examine every plot for features we've seen be
 > ~~~
 > {: .python}
 >
-> > ## Solution
-> > C gets printed because the first two conditions, `4 > 5` and `4 == 5`, are not true,
-> > but `4 < 5` is true.
+[//]: #> > ## Solution
+[//]: #> > C gets printed because the first two conditions, `4 > 5` and `4 == 5`, are not true,
+[//]: #> > but `4 < 5` is true.
 > {: .solution}
 {: .challenge}
 
@@ -278,27 +278,27 @@ freeing us from having to manually examine every plot for features we've seen be
 > Compare your implementation with your partner's:
 > do you get the same answer for all possible pairs of numbers?
 >
-> > ## Solution 1
-> > ~~~
-> > a = 5
-> > b = 5.1
-> >
-> > if abs(a - b) < 0.1 * abs(b):
-> >     print('True')
-> > else:
-> >     print('False')
-> > ~~~
-> > {: .python}
+[//]: #> > ## Solution 1
+[//]: #> > ~~~
+[//]: #> > a = 5
+[//]: #> > b = 5.1
+[//]: #> >
+[//]: #> > if abs(a - b) < 0.1 * abs(b):
+[//]: #> >     print('True')
+[//]: #> > else:
+[//]: #> >     print('False')
+[//]: #> > ~~~
+[//]: #> > {: .python}
 > {: .solution}
 >
-> > ## Solution 2
-> > ~~~
-> > print(abs(a - b) < 0.1 * abs(b))
-> > ~~~
-> > {: .python}
-> >
-> > This works because the Booleans `True` and `False`
-> > have string representations which can be printed.
+[//]: #> > ## Solution 2
+[//]: #> > ~~~
+[//]: #> > print(abs(a - b) < 0.1 * abs(b))
+[//]: #> > ~~~
+[//]: #> > {: .python}
+[//]: #> >
+[//]: #> > This works because the Booleans `True` and `False`
+[//]: #> > have string representations which can be printed.
 > {: .solution}
 {: .challenge}
 
@@ -324,25 +324,25 @@ freeing us from having to manually examine every plot for features we've seen be
 > using in-place operators.
 > Do you think the result is more or less readable than writing the same without in-place operators?
 >
-> > ## Solution
-> > ~~~
-> > positive_sum = 0
-> > negative_sum = 0
-> > test_list = [3, 4, 6, 1, -1, -5, 0, 7, -8]
-> > for num in test_list:
-> >     if num > 0:
-> >         positive_sum += num
-> >     elif num == 0:
-> >         pass
-> >     else:
-> >         negative_sum += num
-> > print(positive_sum, negative_sum)
-> > ~~~
-> > {: .python}
-> >
-> > Here `pass` means "don't do anything".
+[//]: #> > ## Solution
+[//]: #> > ~~~
+[//]: #> > positive_sum = 0
+[//]: #> > negative_sum = 0
+[//]: #> > test_list = [3, 4, 6, 1, -1, -5, 0, 7, -8]
+[//]: #> > for num in test_list:
+[//]: #> >     if num > 0:
+[//]: #> >         positive_sum += num
+[//]: #> >     elif num == 0:
+[//]: #> >         pass
+[//]: #> >     else:
+[//]: #> >         negative_sum += num
+[//]: #> > print(positive_sum, negative_sum)
+[//]: #> > ~~~
+[//]: #> > {: .python}
+[//]: #> >
+[//]: #> > Here `pass` means "don't do anything".
 > In this particular case, it's not actually needed, since if `num == 0` neither
-> > sum needs to change, but it illustrates the use of `elif`.
+[//]: #> > sum needs to change, but it illustrates the use of `elif`.
 > {: .solution}
 {: .challenge}
 
@@ -380,21 +380,21 @@ freeing us from having to manually examine every plot for features we've seen be
 > ~~~
 > {: .python}
 >
-> > ## Solution
-> > ~~~
-> > for file in files:
-> >     if 'inflammation-' in file:
-> >         large_files.append(file)
-> >     elif 'small-' in file:
-> >         small_files.append(file)
-> >     else:
-> >         other_files.append(file)
-> >         
-> > print(large_files)
-> > print(small_files)
-> > print(other_files)
-> > ~~~
-> > {: .python}
+[//]: #> > ## Solution
+[//]: #> > ~~~
+[//]: #> > for file in files:
+[//]: #> >     if 'inflammation-' in file:
+[//]: #> >         large_files.append(file)
+[//]: #> >     elif 'small-' in file:
+[//]: #> >         small_files.append(file)
+[//]: #> >     else:
+[//]: #> >         other_files.append(file)
+[//]: #> >         
+[//]: #> > print(large_files)
+[//]: #> > print(small_files)
+[//]: #> > print(other_files)
+[//]: #> > ~~~
+[//]: #> > {: .python}
 > {: .solution}
 {: .challenge}
 
@@ -406,17 +406,17 @@ freeing us from having to manually examine every plot for features we've seen be
 >    Did you make the same decisions about how to handle the letter 'y'
 >    (which some people think is a vowel, and some do not)?
 >
-> > ## Solution
-> > ~~~
-> > vowels = 'aeiouAEIOU'
-> > sentence = 'Mary had a little lamb.'
-> > count = 0
-> > for char in sentence:
-> >     if char in vowels:
-> >         count += 1
-> >         
-> > print("The number of vowels in this string is " + str(count))
-> > ~~~
-> > {: .python}
+[//]: #> > ## Solution
+[//]: #> > ~~~
+[//]: #> > vowels = 'aeiouAEIOU'
+[//]: #> > sentence = 'Mary had a little lamb.'
+[//]: #> > count = 0
+[//]: #> > for char in sentence:
+[//]: #> >     if char in vowels:
+[//]: #> >         count += 1
+[//]: #> >         
+[//]: #> > print("The number of vowels in this string is " + str(count))
+[//]: #> > ~~~
+[//]: #> > {: .python}
 > {: .solution}
 {: .challenge}
