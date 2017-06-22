@@ -1,7 +1,7 @@
 ---
 title: Data Types and Formats
-teaching: 20
-exercises: 25
+teaching: 
+exercises: 
 questions:
   - " What types of data can be contained in a DataFrame?
   "
