@@ -1,7 +1,7 @@
 ---
 title: Indexing, Slicing and Subsetting DataFrames in Python
-teaching: 
-exercises: 
+teaching:
+exercises:
 questions:
     - " How can I access specific data within my data set? "
     - " How  can Python and Pandas help me to analyse my data?"
@@ -157,9 +157,8 @@ surveys_df[:5]
 surveys_df[-1]
 ```
 
-# also selects the last element in the list
-# the slice starts at the last element,
-# and ends at the end of the list.
+also selects the last element in the list the slice starts at the last element,
+and ends at the end of the list.
 surveys_df[-1:]
 ```
 
